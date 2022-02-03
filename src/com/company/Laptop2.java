@@ -1,8 +1,11 @@
 package com.company;
 
+import java.time.LocalDate;
+import java.util.Locale;
+
 public class Laptop2 {
-    String laptopName;
-    int memory;
+   private String laptopName;
+    private int memory;
      String color;
      String CPU;
     public  void on(){

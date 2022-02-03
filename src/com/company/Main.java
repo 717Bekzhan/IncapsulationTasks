@@ -12,5 +12,16 @@ public class Main {
         System.out.println(laptop.getCPU());
         laptop.on();
         laptop.off();
+
+        System.out.println("       ");
+        Student student = new Student();
+        student.setStudentName("Bekzhan");
+        student.setAge(19);
+        student.setGroup(5);
+        System.out.println(student.getStudentName() );
+        System.out.println(student.getAge());
+        System.out.println(student.getGroup());
+        student.study();
+        student.play();
     }
 }
